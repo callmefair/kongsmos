@@ -212,15 +212,15 @@ differences.shape
 이야 이거 좀 복잡하네... [[NumPy 2 The Basics of NumPy Arrays#reshaping |여기서]] 나온 np.newaxis을 이용하여 3차원 배열로 억지로 만든거 같은데...
 우리가 찾아봤다시피 newaxis는 이 차원에서 그 부분을 1로 만드는 느낌!
 그렇다면 X\[:, np.newaxis, :]는 \[x좌표, 1, y좌표]
-![설명](./images/Pasted%20image%2020250605180449.png|200)</br>
+![설명](./images/Pasted%20image%2020250605180449.png)</br>
 X\[np.newaxis, :, :]는 \[1, x좌표, y좌표] 같은 느낌이려나
-![설명](./images/Pasted%20image%2020250605180700.png|60)</br>
-![설명](./images/Pasted%20image%2020250605175556.png|200)</br>
-![설명](./images/Pasted%20image%2020250605175611.png|200)</br>
+![설명](./images/Pasted%20image%2020250605180700.png)</br>
+![설명](./images/Pasted%20image%2020250605175556.png)</br>
+![설명](./images/Pasted%20image%2020250605175611.png)</br>
 내가 [[NumPy 2 The Basics of NumPy Arrays#3차원 array의 concatenate 시험해보기|3차원 배열]] 파헤쳤던걸 생각해보면...
 후자가 가로로 이어져있고, 전자가 세로로 이어져있는 느낌.
 둘이 빼서 broadcasting된 배열을 만든 느낌이야
-![설명](./images/Pasted%20image%2020250605181317.png|200)</br>
+![설명](./images/Pasted%20image%2020250605181317.png)</br>
 결론적으로 x좌표와 y좌표가 broadcasting 되는 모양새지
 
 ```python
@@ -244,7 +244,7 @@ array([ 0., 0. ,0. , ..., 0.])
 nearest = np.argsort(dist_sq, axis=1)
 print(nearest)
 ```
-![설명](./images/Pasted%20image%2020250605183036.png|200)</br>
+![설명](./images/Pasted%20image%2020250605183036.png)</br>
 이제 이렇게 argsort를 해주면 열 오름차순이 되어 각 행마다 sort가 될거야!
 물론 대각선이 다 0일테니, 맨 왼쪽 열이 0 1 2 3 4...로 된걸 볼 수 있지
 
