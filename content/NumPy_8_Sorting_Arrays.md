@@ -211,10 +211,10 @@ differences.shape
 ```
 이야 이거 좀 복잡하네... [[NumPy 2 The Basics of NumPy Arrays#reshaping |여기서]] 나온 np.newaxis을 이용하여 3차원 배열로 억지로 만든거 같은데...
 우리가 찾아봤다시피 newaxis는 이 차원에서 그 부분을 1로 만드는 느낌!
-그렇다면 X\[:, np.newaxis, :]는 \[x좌표, 1, y좌표]
-![설명](./images/Pasted%20image%2020250605180449.png){: width="30%" height="30%"}</br>
+그렇다면 X\[:, np.newaxis, :]는 \[x좌표, 1, y좌표]</br>
+<img src="./images/Pasted%20image%2020250605180449.png" alt="설명" width="30%"></br>
 
-X\[np.newaxis, :, :]는 \[1, x좌표, y좌표] 같은 느낌이려나
+X\[np.newaxis, :, :]는 \[1, x좌표, y좌표] 같은 느낌이려나</br>
 ![설명](./images/Pasted%20image%2020250605180700.png){: width="30%" height="30%"}</br>
 ![설명](./images/Pasted%20image%2020250605175556.png){: width="30%" height="30%"}</br>
 ![설명](./images/Pasted%20image%2020250605175611.png){: width="30%" height="30%"}</br>
