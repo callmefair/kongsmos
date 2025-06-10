@@ -1,9 +1,3 @@
-<style>
-.thumbnail {
-  width: 30%;
-  height: auto;
-}
-</style>
 # (1) 비효율적인 sorting들
   
 내가 알고리즘 시간에 배웠던 insertion sorts, selection sorts, bubble sorts 같은거 나올건가봐.  
@@ -220,15 +214,15 @@ differences.shape
 우리가 찾아봤다시피 newaxis는 이 차원에서 그 부분을 1로 만드는 느낌!  
 그렇다면 X[:, np.newaxis, :]는 [x좌표, 1, y좌표]
 
-<p><img src="./images/Pasted%20image%2020250605180449.png" alt="설명" class="thumbnail"></p>
+<p><img src="./images/Pasted%20image%2020250605180449.png" alt="설명"></p>
 
 X[np.newaxis, :, :]는 [1, x좌표, y좌표] 같은 느낌이려나
 
-<p><img src="./images/Pasted%20image%2020250605180700.png" alt="설명" class="thumbnail"></p>
+<p><img src="./images/Pasted%20image%2020250605180700.png" alt="설명"></p>
 
-<p><img src="./images/Pasted%20image%2020250605175556.png" alt="설명" class="thumbnail"></p>
+<p><img src="./images/Pasted%20image%2020250605175556.png" alt="설명"></p>
 
-<p><img src="./images/Pasted%20image%2020250605175611.png" alt="설명" class="thumbnail"></p>
+<p><img src="./images/Pasted%20image%2020250605175611.png" alt="설명"></p>
 내가 [[NumPy 2 The Basics of NumPy Arrays#3차원 array의 concatenate 시험해보기|3차원 배열]] 파헤쳤던걸 생각해보면...  
 후자가 가로로 이어져있고, 전자가 세로로 이어져있는 느낌.  
 둘이 빼서 broadcasting된 배열을 만든 느낌이야  
