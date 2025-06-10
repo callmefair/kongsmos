@@ -1,9 +1,9 @@
 # (1) 기초적인 Fancy Indexing
 ## Fancy Indexing의 기초 개념
 
-이젠 다른 방식의 array indexing을 배울거라네?
-근데 하나의 scalar를 쓰는 대신 index들의 array를 사용할거라고 해.
-이게 무슨 말일까??
+이젠 다른 방식의 array indexing을 배울거라네?</br>
+근데 하나의 scalar를 쓰는 대신 index들의 array를 사용할거라고 해.</br>
+이게 무슨 말일까??</br>
 ```python
 import numpy as np
 
@@ -16,8 +16,8 @@ x[ind]
 # 이렇게 해도 array([40, 80, 50]) 결과가 잘 나오네!
 
 ```
-기존엔 array의 index 부분 안에 \[3] 이렇게 하나의 숫자. 비유하자면 scalar를 넣었는데,
-**Fancy Indexing**은 <u>array의 index 부분 안에
+기존엔 array의 index 부분 안에 \[3] 이렇게 하나의 숫자. 비유하자면 scalar를 넣었는데,</br>
+**Fancy Indexing**은 <u>array의 index 부분 안에</br>
 또다시 원하는 index들의 array를 넣는 방식인거야!</u>
 
 ## index array의 shape
