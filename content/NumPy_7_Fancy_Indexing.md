@@ -17,8 +17,10 @@ x[ind]
   
 ```
 기존엔 array의 index 부분 안에 \[3] 이렇게 하나의 숫자. 비유하자면 scalar를 넣었는데,</br>
-**Fancy Indexing**은 <u>array의 index 부분 안에</br>
-또다시 원하는 index들의 array를 넣는 방식인거야!</u>
+**Fancy Indexing**은 <span style="text-decoration: underline;">
+  array의 index 부분 안에<br>
+  또다시 원하는 index들의 array를 넣는 방식인거야!
+</span>
 
 ## index array의 shape
   
