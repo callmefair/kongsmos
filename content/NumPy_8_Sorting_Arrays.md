@@ -214,7 +214,7 @@ differences.shape
 우리가 찾아봤다시피 newaxis는 이 차원에서 그 부분을 1로 만드는 느낌!  
 그렇다면 X[:, np.newaxis, :]는 [x좌표, 1, y좌표]
 
-<p><img src="./images/Pasted%20image%2020250605180449.png" alt="설명" style="width: 30%; height: auto;"></p>
+<p><img src="./images/Pasted%20image%2020250605180449.png" alt="설명"></p>
 
 X[np.newaxis, :, :]는 [1, x좌표, y좌표] 같은 느낌이려나
 
