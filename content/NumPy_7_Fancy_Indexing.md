@@ -133,7 +133,7 @@ X\[:, 0]을 하면 index 0열. 즉 x좌표가 다 나오고,
 X\[:, 1]을 하면 index 1열. 즉 y좌표가 다 나온다!
 scatter는 그걸 다 찍겠단 소리곘지
 
-![설명](./images/Pasted%20image%2020250530053409.png)
+![설명](./images/Pasted%20image%2020250530053409.png)<br/>
 이제 그림을 그렸으니 여기에서 점을 뽑자는거야
 ```python
 indices = np.random.choice(X.shape[0], 20, replace=False)
