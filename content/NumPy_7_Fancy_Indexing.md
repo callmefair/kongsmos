@@ -17,8 +17,8 @@ x[ind]
   
 ```
 기존엔 array의 index 부분 안에 \[3] 이렇게 하나의 숫자. 비유하자면 scalar를 넣었는데,</br>
-**Fancy Indexing**은 <u>array의 index 부분 안에</u>  
-<u>또다시 원하는 index들의 array를 넣는 방식인거야!</u>
+**Fancy Indexing**은 <ins>array의 index 부분 안에</ins>  
+<ins>또다시 원하는 index들의 array를 넣는 방식인거야!</ins>  
 
 ## index array의 shape
   
@@ -174,7 +174,7 @@ x[i] -= 10
 책에서 이런걸 assignment-type operator라고 하던데 이게 뭘까?  
 우리가 대학에서 엄청 많이 배웠던 +=처럼 축약한 연산자인데 멋지게 이름 붙인거야  
 뒤에 =이 붙는 += \*= 같은 모든 애들을 얘기하지!  
-고급스럽게 얘기하면 <u>기존 값으로 다시 할당하는 축약 연산자</u>인거야야  
+고급스럽게 얘기하면 <ins>기존 값으로 다시 할당하는 축약 연산자</ins>인거야야  
   
 ## index array에 같은 숫자가 있다면?  
   
