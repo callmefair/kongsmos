@@ -22,9 +22,9 @@ x[ind]
 
 ## index array의 shape
 
-근데 여기서 중요한게 있어
-fancy indexing은 index의 대상이 되는 array의 shape 말고,
-우리가 원하는 index의 array의 shape를 반영해!
+근데 여기서 중요한게 있어</br>
+fancy indexing은 index의 대상이 되는 array의 shape 말고,</br>
+우리가 원하는 index의 array의 shape를 반영해!</br>
 ```python
 ind = np.array([[3, 7],
 				[4, 5]])
@@ -35,11 +35,12 @@ array([[40, 80],
 """
 ```
 {지피티}
-지피티에게도 이 문장을 물어봤었는데, 이 부분이 왜 중요한가싶더니
-x의 shape에는 영향을 주지 않으면서 index 배열의 shape로만 뽑아오는거야
-이게 일반 슬라이싱의 **원본 배열에서 선택된 범위를 가져오는거랑 차이가 있는거래.** [[NumPy 2 The Basics of NumPy Arrays#Slicing]]
+지피티에게도 이 문장을 물어봤었는데, 이 부분이 왜 중요한가싶더니</br>
+x의 shape에는 영향을 주지 않으면서 index 배열의 shape로만 뽑아오는거야</br>
+이게 일반 슬라이싱의 **원본 배열에서 선택된 범위를 가져오는거랑 차이가 있는거래.** [[NumPy 2 The Basics of NumPy Arrays#Slicing]]</br>
 
 ## Fancy Indexing + Broadcasting
+</br>
 
 ```python
 x = np.arange(9).reshape((3, 3))
@@ -56,12 +57,12 @@ array([[1, 2],
 		[4, 5]])
 """
 ```
-indices array 자체가 broadcasting 되는 경우도 볼 수 있지
-***broadcasting 태그 미완성***
+indices array 자체가 broadcasting 되는 경우도 볼 수 있지</br>
+***broadcasting 태그 미완성***</br>
 
 # (2) Combined indexing
 
-2차원 배열이면 이런 기묘한 일도 일어나
+2차원 배열이면 이런 기묘한 일도 일어나  
 ```python
 X = np.arange(12).reshape((3, 4))
 X[2, [2, 0, 1]]
@@ -75,8 +76,8 @@ mask = np.array([1, 0, 1, 0], dtype=bool)
 row = np.array([0, 1, 2])
 X[row[:, np.newaxis], mask]
 ```
-이런걸 indexing by masking이라고 한대
-*진짜 Python이 유연한건 원탑이네*
+이런걸 indexing by masking이라고 한대  
+*진짜 Python이 유연한건 원탑이네*  
 
 ### indexing by masking 얘깃거리
 
