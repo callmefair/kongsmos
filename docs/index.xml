@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>홈</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>나의 블로그에 오신 것을 환영합니다! 여긴 정리된 글들이 올라오는 공간입니다.</description>
+    <pubDate>Mon, 23 Jun 2025 23:38:21 GMT</pubDate>
+  </item><item>
+    <title>Fancy Indexing 정리</title>
+    <link>https://quartz.jzhao.xyz/NumPy7FancyIndexing</link>
+    <guid>https://quartz.jzhao.xyz/NumPy7FancyIndexing</guid>
+    <description>NumPy의 팬시 인덱싱 개념 정리</description>
+    <pubDate>Sun, 22 Jun 2025 15:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
