@@ -10,32 +10,25 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.128.0
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${{ env:HUGO_VERSION }}/hugo_extended_${{ env:HUGO_VERSION }}_linux-amd64.deb
-          sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Hugo
-        run: hugo --minify --baseURL "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          submodules: recursive  # 테마 파일을 가져오는 데 필수
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true         # 중요: 많은 테마가 extended 버전을 요구함
+
+      - name: Build
+        run: hugo --minify --baseURL "https://callmefair.github.io/kongsmos/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
