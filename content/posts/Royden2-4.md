@@ -9,10 +9,10 @@ title = 'Royden Ch2-4. Measureable set의 속껍질과 겉껍질 근사'
 
 ![](https://velog.velcdn.com/images/7kong/post/8f7320ab-d6e4-49a4-a06f-6895cdcaa470/image.jpg)
 
-속껍질과 겉껍질 근사.
+속껍질과 겉껍질 근사.<br>
 우리가 outer measure를 정의할 때 이미 이런 성질을 갖고 있어보였어.
 
-We define the **outer measure** of $A$, $m^*(A)$, 
+We define the **outer measure** of $A$ , $m^*(A)$ , 
 to be the infimum of all such sums, that is
 $$m^*(A) = \mathsf{inf} \{\sum^\infty_{k=1} l(I_k) \; | \; A \subseteq \bigcup ^\infty _{k=1} I_k\}$$
 
