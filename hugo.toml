@@ -4,4 +4,4 @@ title = 'Kongsmos Theory'
 theme = 'PaperMod'
 
 [params]
-    math = true  # 이 한 줄이 수학 블로그의 핵심입니다!
+    math = true
