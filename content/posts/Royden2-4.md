@@ -1,8 +1,8 @@
----
-title: "Royden Ch2-4. Measureable set의 속껍질과 겉껍질 근사"
-date: 2026-01-21T02:58:36Z
-draft: false
----
++++
+date = '2026-01-21T03:00:46+09:00'
+draft = false
+title = 'Royden Ch2-4. Measureable set의 속껍질과 겉껍질 근사'
++++
 
 # 🐚1. measurable set의 속껍질과 겉껍질
 
