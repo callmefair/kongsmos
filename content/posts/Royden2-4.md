@@ -9,7 +9,7 @@ title = 'Royden Ch2-4. Measureable set의 속껍질과 겉껍질 근사'
 
 ![](https://velog.velcdn.com/images/7kong/post/8f7320ab-d6e4-49a4-a06f-6895cdcaa470/image.jpg)
 
-속껍질과 겉껍질 근사.<br>
+속껍질과 겉껍질 근사.
 우리가 outer measure를 정의할 때 이미 이런 성질을 갖고 있어보였어.
 
 We define the **outer measure** of $A$ , $m^*(A)$ , 
