@@ -1,6 +1,7 @@
 +++
 date = '2026-01-21T03:00:46+09:00'
 draft = false
+math = true
 title = 'Royden Ch2-4. Measureable set의 속껍질과 겉껍질 근사'
 +++
 
